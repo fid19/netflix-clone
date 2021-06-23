@@ -10,7 +10,7 @@ export default function Browse() {
   //   console.log(series);
   //we need slides
   const slides = selectionFilter({ series, films });
-  //   console.log(slides);
+  // console.log(slides);
   //pass it to the browse container
 
   return <BrowseContainer slides={slides} />;
